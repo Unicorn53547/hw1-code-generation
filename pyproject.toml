@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+  { name = "Zhaojian Yu", email = "yuzhaojian1@outlook.com" }
+]
+name = "CodeEval-Pro"
+version = "0.1.0"
+description = "Evaluating Language Models for Self-Invoking Code Generation."
+requires-python = ">=3.10,<3.13"
+license = { text = "MIT" }
+dependencies = [
+  "vllm>=0.6.3",
+  "transformers>=4.51.0",
+  "torch>=2.4.0",
+  "openai>=1.54.1",
+  "tqdm>=4.67.0",
+  "evaluate>=0.4.3",
+  "datasets>=3.0.2",
+  "evalplus>=0.3.1",
+  "scikit-learn>=1.6.0",
+  "scipy>=1.14.1",
+  "seaborn>=0.13.2",
+  "sympy>=1.13.3",
+  "matplotlib>=3.9.4",
+  "statsmodels>=0.14.4"
+]
+
+[tool.setuptools.packages]
+find = { where = ["eval"] }

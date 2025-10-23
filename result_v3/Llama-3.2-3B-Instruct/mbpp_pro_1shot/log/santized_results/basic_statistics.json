@@ -1,0 +1,90 @@
+{
+    "error_stats": {
+        "Passed": 5,
+        "SyntaxError": 1,
+        "AssertionError": 3,
+        "NameError": 1
+    },
+    "analysis": [
+        [
+            {
+                "problem_id": 0,
+                "solution_id": 0,
+                "status": "Passed",
+                "error_type": "Passed"
+            }
+        ],
+        [
+            {
+                "problem_id": 1,
+                "solution_id": 0,
+                "status": "Failed",
+                "error_type": "SyntaxError"
+            }
+        ],
+        [
+            {
+                "problem_id": 2,
+                "solution_id": 0,
+                "status": "Passed",
+                "error_type": "Passed"
+            }
+        ],
+        [
+            {
+                "problem_id": 3,
+                "solution_id": 0,
+                "status": "Failed",
+                "error_type": "AssertionError"
+            }
+        ],
+        [
+            {
+                "problem_id": 4,
+                "solution_id": 0,
+                "status": "Failed",
+                "error_type": "AssertionError"
+            }
+        ],
+        [
+            {
+                "problem_id": 5,
+                "solution_id": 0,
+                "status": "Passed",
+                "error_type": "Passed"
+            }
+        ],
+        [
+            {
+                "problem_id": 6,
+                "solution_id": 0,
+                "status": "Passed",
+                "error_type": "Passed"
+            }
+        ],
+        [
+            {
+                "problem_id": 7,
+                "solution_id": 0,
+                "status": "Failed",
+                "error_type": "NameError"
+            }
+        ],
+        [
+            {
+                "problem_id": 8,
+                "solution_id": 0,
+                "status": "Failed",
+                "error_type": "AssertionError"
+            }
+        ],
+        [
+            {
+                "problem_id": 9,
+                "solution_id": 0,
+                "status": "Passed",
+                "error_type": "Passed"
+            }
+        ]
+    ]
+}

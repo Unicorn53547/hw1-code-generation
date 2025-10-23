@@ -1,0 +1,14 @@
+{
+    "pass_k_of_gt": {
+        "pass@1": 1.0
+    },
+    "results": {
+        "model": "Qwen2.5-Coder-3B-Instruct",
+        "pass_k_of_output": {
+            "pass@1": 0.8
+        },
+        "pass_k_of_output_santized": {
+            "pass@1": 0.8
+        }
+    }
+}

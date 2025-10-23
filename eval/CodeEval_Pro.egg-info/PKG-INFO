@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: CodeEval-Pro
+Version: 0.1.0
+Summary: Evaluating Language Models for Self-Invoking Code Generation.
+Author-email: Zhaojian Yu <yuzhaojian1@outlook.com>
+License: MIT
+Requires-Python: <3.13,>=3.10
+Requires-Dist: vllm>=0.6.3
+Requires-Dist: transformers>=4.51.0
+Requires-Dist: torch>=2.4.0
+Requires-Dist: openai>=1.54.1
+Requires-Dist: tqdm>=4.67.0
+Requires-Dist: evaluate>=0.4.3
+Requires-Dist: datasets>=3.0.2
+Requires-Dist: evalplus>=0.3.1
+Requires-Dist: scikit-learn>=1.6.0
+Requires-Dist: scipy>=1.14.1
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: sympy>=1.13.3
+Requires-Dist: matplotlib>=3.9.4
+Requires-Dist: statsmodels>=0.14.4

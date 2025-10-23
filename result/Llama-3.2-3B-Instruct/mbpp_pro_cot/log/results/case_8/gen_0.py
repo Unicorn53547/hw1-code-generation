@@ -1,0 +1,29 @@
+# Write a function to convert a string to a list of strings split on the space character.
+def string_to_list(string):
+    """
+    Converts a string to a list of strings split on the space character.
+
+    Args:
+        string (str): The input string to be converted.
+
+    Returns:
+        list: A list of strings where each string is a word from the original string.
+    """
+    return string.split()
+
+# Write a function to convert a list of strings into a list of lists where each sublist contains the words of the corresponding string from the original list, split on the space character.
+def list_of_strings_to_list_of_lists(list_of_strings):
+    """
+    Converts a list of strings into a list of lists where each sublist contains the words of the corresponding string from the original list.
+
+    Args:
+        list_of_strings (list): The input list of strings to be converted.
+
+    Returns:
+        list: A list of lists where each sublist contains the words of the corresponding string from the original list.
+    """
+    return [string.split() for string in list_of_strings]
+
+assert list_of_strings_to_list_of_lists(['hello world', 'python is fun']) == [['hello', 'world'], ['python', 'is', 'fun']]
+assert list_of_strings_to_list_of_lists(['']) == [['']]
+assert list_of_strings_to_list_of_lists(['singleword']) == [['singleword']]
