@@ -1,0 +1,24 @@
+{
+    "error_stats": {
+        "Passed": 1,
+        "AssertionError": 1
+    },
+    "analysis": [
+        [
+            {
+                "problem_id": 0,
+                "solution_id": 0,
+                "status": "Passed",
+                "error_type": "Passed"
+            }
+        ],
+        [
+            {
+                "problem_id": 1,
+                "solution_id": 0,
+                "status": "Failed",
+                "error_type": "AssertionError"
+            }
+        ]
+    ]
+}

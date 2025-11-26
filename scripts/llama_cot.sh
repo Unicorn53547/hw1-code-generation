@@ -1,6 +1,6 @@
 
 export VLLM_WORKER_MULTIPROC_METHOD=spawn
-export HF_DATASETS_CACHE="CACHE_DIR"
+export HF_DATASETS_CACHE="../../../../ckpt"
 
 # export NCCL_ASYNC_ERROR_HANDLING=1
 # export NCCL_DEBUG=WARN
@@ -9,10 +9,10 @@ export HF_DATASETS_CACHE="CACHE_DIR"
 # # optional if supported:
 # export NCCL_NVLS_ENABLE=1
 set -ex
-OUTPUT_DIR=result_v3
+OUTPUT_DIR=result_new
 MODEL=Llama-3.2-3B-Instruct
-MODEL_PATH=MODEL_PATH
-TASK_TYPE=mbpp_pro_1shot # or mbpp_pro
+MODEL_PATH=../../../../ckpt/Llama-3.2-3B-Instruct
+TASK_TYPE=mbpp_pro_cot # or mbpp_pro
 mkdir -p ${OUTPUT_DIR}/${MODEL}/${TASK_TYPE}/outputs/
 
 python -m eval.inference \

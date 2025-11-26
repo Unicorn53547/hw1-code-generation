@@ -1,8 +1,8 @@
 set -ex
-OUTPUT_DIR=result_v3
-MODEL=Qwen2.5-Coder-3B-Instruct
+OUTPUT_DIR=result_new
+MODEL=Llama-3.2-3B-Instruct
 DATASET=mbpp_pro
-TASK_TYPE=mbpp_pro_1shot
+TASK_TYPE=mbpp_pro_cot
 
 python -m santize \
     --model_name $MODEL \
@@ -11,7 +11,7 @@ python -m santize \
 python -m harness \
     --model_name $MODEL \
     --task $TASK_TYPE \
-    --dataset_path dataset/mbpp_pro_subset_10.json \
+    --dataset_path dataset/mbpp_new.json \
     --source_path ${OUTPUT_DIR}/${MODEL}/${TASK_TYPE}/outputs/ \
     --save_path ${OUTPUT_DIR}/${MODEL}/${TASK_TYPE} \
     --run_code

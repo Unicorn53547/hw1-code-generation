@@ -5,3 +5,5 @@ eval/CodeEval_Pro.egg-info/SOURCES.txt
 eval/CodeEval_Pro.egg-info/dependency_links.txt
 eval/CodeEval_Pro.egg-info/requires.txt
 eval/CodeEval_Pro.egg-info/top_level.txt
+tests/test_case_3_baseline.py
+tests/test_case_4_baseline.py

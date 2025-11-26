@@ -8,7 +8,7 @@ from evalplus.data import get_human_eval_plus, get_mbpp_plus, write_jsonl
 
 def get_mbpp_pro_raw_problems() -> list[dict]:
     # problems = load_dataset('CodeEval-Pro/mbpp-pro',split='train')
-    problems = load_dataset("json", data_files="dataset/mbpp_pro_subset_10.json", split='train')
+    problems = load_dataset("json", data_files="dataset/mbpp_new.json", split='train')
     
     return list(problems)
 
